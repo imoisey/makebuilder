@@ -1,0 +1,21 @@
+{
+    "name": "imoisey/makebuilder",
+    "description": "Builder for Makefile",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Moiseev",
+            "email": "developer.modx@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Imoisey\\Makebuilder\\": "src"
+        }
+    }
+}
